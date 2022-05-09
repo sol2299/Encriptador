@@ -1,0 +1,88 @@
+body {
+  background: rgb(94, 230, 249);
+  background: linear-gradient(
+    90deg,
+    rgba(94, 230, 249, 1) 5%,
+    rgba(29, 58, 203, 1) 68%
+  );
+}
+
+.logo {
+  vertical-align: top;
+  padding: 20px;
+}
+
+.texto {
+  font-size: 20px;
+  font-family: "Dosis";
+  outline: none;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.instruction {
+  text-align: center;
+  font-size: medium;
+  font-family: "Dosis";
+  color: #ffff;
+}
+
+.encriptar {
+  padding: 5px 20px 5px 20px;
+  font-size: large;
+  font-family: "Dosis";
+  color: #ffff;
+  background-color: #0a3871;
+  border-color: #0a3871;
+}
+
+.encriptar:hover {
+  font-size: x-large;
+}
+
+.desencriptar {
+  padding: 5px 10px;
+  font-size: large;
+  font-weight: bolder;
+  font-family: "Dosis";
+  color: #0a3871;
+  background-color: #d8dfeb;
+  border-color: #0a3871;
+}
+
+.desencriptar:hover {
+  font-size: x-large;
+}
+
+.rectangle {
+  height: 700px;
+  width: 400px;
+  background-color: #ffff;
+  border-radius: 30px;
+  padding-top: 30px;
+}
+
+.tituloMunheco {
+  margin-top: 100px;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: "Dosis";
+  color: #0a3871;
+}
+
+.parrafoMunheco {
+  font-family: "Dosis";
+  color: #0a3871;
+}
+
+::placeholder {
+  color: #ffff;
+  font-family: "Dosis";
+}
+
+.hongo {
+  color: #ffff;
+  padding-top: 20px;
+  font-family: "Dosis";
+  font-size: medium;
+}
